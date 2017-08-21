@@ -1,0 +1,180 @@
+*{
+	box-sizing:border-box;
+}
+
+html {
+	background:white;
+}
+
+.header-about {
+	background:red;
+}
+
+.page-wrap {
+	max-width:80%;
+}
+
+body {
+	background:white;	
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.header {
+	height:60px;
+	padding-bottom: 20px;
+}
+
+.header h1{
+	background:white;
+	color:#002c38;
+	text-align: center;
+	font-size:50px;
+	padding-top:10px;
+	float:left;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+	display:inline;
+	float:right;
+}
+
+.cycle-slideshow {
+	width:100%;
+	height:300px;
+	
+}
+
+.subheader-1 {
+	height:320px;
+	background:#cbe3ef;
+	display: fixed;
+
+}
+
+.subheader-1 p {
+	color:white;
+	font-family: 'Avenir';
+	font-size: 18px;
+	font-style: italic;
+	padding:20px 320px;
+	word-spacing: 2px;
+	line-height: 30px;
+	width:400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.subheader-1 img {
+	width:290px;
+	height:310px;
+	margin-left: 50%;
+}
+
+img { max-width:100%; }
+.cycle-pager {
+  font-size:50px;
+  text-align:center;
+}
+
+.cycle-pager-active {
+  color:red;
+}
+
+.subheader-2 {
+	background-color:#767f82;
+	font-size: 15px;
+	text-align: center;
+	padding:10px;
+	margin-top: -18px;
+}
+
+.subheader-2 nav a {
+	color:white;
+	font-family: 'Avenir';
+	max-height: 20px;
+}
+
+.hero {
+	height:600px;
+	padding:60px;
+}
+
+.feature-box {
+	width:650px;
+	
+}
+
+.feature {
+	width:300px;
+	height:220px;
+	background:lightgrey;
+	float:left;
+	margin-right:25px;
+	margin-bottom:25px;
+}
+
+.feature:hover {
+	background-color: rgba(73, 156, 183, 0.5);
+	border-right-width: 10px;
+	border-color: blue;
+}
+
+.feature h1 {
+	text-align: center;
+	color:#1f3238;
+	padding-top:85px; 
+	display:all;
+}
+
+.form-field {
+	width:400px;
+	font-size: 18px;
+	font-weight:lighter;
+	padding:5px;
+}
+
+.checkbox {
+	font-size: 11.5px;
+	padding:12px 0px;
+	width:390;
+}
+
+
+.sidebar {
+	width:250px;
+	height: 500px;
+	background:#ffe2d8;
+	display:inline-block;
+	border-radius: 1px;
+}
+
+.sidebar p {
+	font-size:18px;
+	padding-top:25px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.footer {
+	height:60px;
+	background: #767f82;
+	color:white;
+}
+
+.education, .work-experience {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding:20px;
+}
+
+
+
